@@ -1,3 +1,5 @@
-dataset/
-encodings/
+dataset/Bojan
+dataset/Filip
+dataset/Nikola
+encodings/face_encodings.pkl
 .venv/
