@@ -1,0 +1,31 @@
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATASET_DIR = os.path.join(BASE_DIR, "dataset")
+ENCODINGS_DIR = os.path.join(BASE_DIR, "encodings")
+ENCODINGS_FILE = os.path.join(ENCODINGS_DIR, "face_encodings.pkl")
+
+TOLERANCE = 0.7
+
+CONFIDENCE_THRESHOLD = 0.4
+
+CAMERA_INDEX = 0
+FRAME_WIDTH = 640
+FRAME_HEIGHT = 480
+FRAMES_PER_SECOND = 60
+
+DETECTION_SKIP = 15
+
+
+FONT_SCALE = 0.6
+FONT_THICKNESS = 2
+BOX_THICKNESS = 2
+TEXT_OFFSET_Y = -10
+
+
+COLOR_KNOWN = (0, 255, 0)
+COLOR_UNKNOWN = (0, 0, 255)
+COLOR_TEXT = (255, 255, 255)
+
+FACE_DETECTION_MODEL = 'hog'
+
